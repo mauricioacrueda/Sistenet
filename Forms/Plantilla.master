@@ -1,0 +1,56 @@
+﻿<%@ Master Language="VB" CodeFile="Plantilla.master.vb" Inherits="Plantilla" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sistemas y Tecnologias.NET</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CCS/Formatos.css" rel="stylesheet" type="text/css" />
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="font-weight: 700">
+    </div>
+    <table >
+        <tr>
+            <td >
+                <asp:Image ID="Image3" runat="server" Height="91px" 
+                    ImageUrl="~/imagenes/Banner_arriba.jpg" Width="1086px" />
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#F7F6F3" >
+                <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" 
+                    DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                    ForeColor="#7C6F57" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+                    Height="39px" Width="59px">
+                    <StaticSelectedStyle BackColor="#5D7B9D" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="#5D7B9D" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                </asp:Menu>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <asp:Image ID="Image2" runat="server" Height="52px" 
+                    ImageUrl="~/imagenes/Banner_abajo.jpg" Width="1087px" />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

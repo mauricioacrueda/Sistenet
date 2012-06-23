@@ -1,0 +1,179 @@
+﻿.CursorM
+{
+	cursor:hand;
+}
+
+.LabelPequeno
+{
+	font-family:"Verdana", Arial, Tahoma;/*Lucida Sans Unicode*/
+	font-size: 10px;
+}
+.LabelNormal
+{
+	font-family:"Verdana", Arial, Tahoma;
+	font-size: 12px;	
+}
+.LabelNormalConCursor
+{
+	font-family:"Verdana", Arial, Tahoma;
+	font-size: 12px;
+    cursor:hand;	
+}
+
+.LetraGrisNormal
+{
+	font-family:"Verdana", Arial, Tahoma;
+	font-size: 12px;
+	color: #999999;	
+}
+
+.LabelTituloNormal
+{
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.LabelTitulo
+{
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #336699;
+}
+
+.LabelTitulo2
+{
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #336699;
+}
+
+.LabelTituloPequeno
+{
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+}
+.Validador
+{
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 10px;
+	color: #FF0000;	
+}
+
+.LabelInformacion
+{
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+}
+
+.LinkAtenuado
+{
+ 	COLOR: #696969;
+ 	FONT-FAMILY: "Verdana", Arial, Tahoma;
+ 	FONT-SIZE: x-small;
+ 	font-weight: bold;
+} 
+A.LinkAtenuado:link {TEXT-DECORATION: underline; COLOR: #696969; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: x-small} 
+A.LinkAtenuado:active {TEXT-DECORATION: underline; COLOR: #0099ff; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: x-small} 
+A.LinkAtenuado:visited {TEXT-DECORATION: underline; COLOR: #808080; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: x-small} 
+A.LinkAtenuado:hover {TEXT-DECORATION: underline; COLOR:#0099ff; FONT-SIZE: x-small} 
+
+.LinkAtenuado2
+{
+ 	COLOR: #696969;
+ 	FONT-FAMILY: "Verdana", Arial, Tahoma;
+ 	FONT-SIZE:small;
+ 	font-weight: bold;
+} 
+A.LinkAtenuado2:link {TEXT-DECORATION: underline; COLOR: #696969; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: small} 
+A.LinkAtenuado2:active {TEXT-DECORATION: underline; COLOR: #0099ff; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: small} 
+A.LinkAtenuado2:visited {TEXT-DECORATION: underline; COLOR: #808080; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: small} 
+A.LinkAtenuado2:hover {TEXT-DECORATION: underline; COLOR:#0099ff; FONT-SIZE: small} 
+
+.LinkAtenuado3
+{
+ 	COLOR: #696969;
+ 	FONT-FAMILY:"Verdana", Arial, Tahoma;
+ 	FONT-SIZE: xx-small;
+ 	font-weight: bold;
+} 
+A.LinkAtenuado3:link {TEXT-DECORATION: underline; COLOR: #696969; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: xx-small} 
+A.LinkAtenuado3:active {TEXT-DECORATION: underline; COLOR: #0099ff; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: xx-small} 
+A.LinkAtenuado3:visited {TEXT-DECORATION: underline; COLOR: #808080; FONT-FAMILY: "Verdana", Arial, Tahoma; FONT-SIZE: xx-small} 
+A.LinkAtenuado3:hover {TEXT-DECORATION: underline; COLOR:#0099ff; FONT-SIZE: xx-small} 
+
+
+/* GridViews */
+.GridViewAlternatingRowStyle
+{	
+	vertical-align: middle;		
+	font-weight:normal;
+    font-family : "Verdana", Arial, Tahoma;
+    font-size:12px; 
+    color:Black; 
+    background-color:#D7E0E3;
+}
+
+.GridViewHeaderStyle
+{
+	text-align:center;
+	vertical-align: middle;		
+	font-weight : bold;
+    font-family : "Verdana", Arial, Tahoma;
+    font-size:12px; 
+    color:white; 
+    background-color:#0E8FC8;
+    background-image:url(../Images/BGGrid.png);
+    background-repeat:repeat-x;   
+    height:30px;    
+}
+
+.GridViewHeaderStyle2
+{
+	text-align:center;
+	vertical-align: middle;		
+	font-weight : bold;
+    font-family : "Verdana", Arial, Tahoma;
+    font-size:12px; 
+    color:#245E83; 
+    background-color:#D7E0E3;
+    background-image:url(../Images/BGGrid2.png);
+    background-repeat:repeat-x;   
+    height:25px;    
+}
+
+.GridViewPagerStyle
+{
+	text-align:center;
+	vertical-align: middle;		
+	font-weight : bold;
+    font-family : "Verdana", Arial, Tahoma;
+    font-size:11px; 
+    color:#235F83; 
+    background-color:white;
+}
+
+.GridViewRowStyle
+{	
+	vertical-align: middle;	
+	font-weight :normal;
+    font-family : "Verdana", Arial, Tahoma;  
+    font-size:12px; 
+    color:Black; 
+    background-color:white;
+}
+
+.GridViewRowStyle2
+{	
+	vertical-align: middle;	
+	font-weight :normal;
+    font-family : "Verdana", Arial, Tahoma;  
+    font-size:12px; 
+    color:Black;
+    background-color:#BCCBCF;/*#C5D1D6*/  
+}

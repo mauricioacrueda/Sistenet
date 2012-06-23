@@ -1,0 +1,33 @@
+USE [sistenet]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create PROCEDURE [dbo].[actualizar_valores_factura]
+
+@idfac int,
+@valor_det float,
+@iva_det float
+
+as
+
+BEGIN
+
+declare @valor as decimal
+declare @iva as decimal
+declare @valorTotal as decimal
+
+
+set  @valor = (select valor_fac from factura where registro = @idfac)
+set  @iva = (select iva_fac from factura where registro = @idfac)
+set  @valorTotal = (select valor_total_fac from factura where registro = @idfac)
+
+	
+update factura set 
+valor_fac = @valor + @valor_det,
+iva_fac = @iva + @iva_det,
+valor_total_fac = @valorTotal + @valor_det +@iva_det
+where registro = @idfac
+
+END

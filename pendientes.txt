@@ -1,0 +1,137 @@
+la capa de datos (una biblioteca de clases)(dataacceslibrery)(ins,del,upd,mod)(es la consulta sql)
+la capalogica(una blibliotea de clases)(datalogiclibrery)
+
+cambiar las conclusiones por las de las diapositivas
+mirar lo de dolbe espacio en los parrafos
+diagrama de clases(con respecto a 3 capaz)
+marco teorio
+referencia de lo que escribimos en el libro
+colocar las pruebas que se realizaron
+´pasar a 2 capaz
+hacer pruebas y colocar los datosreales
+bibliografia colocar el libro q utilizamos al final
+limitacion el servidor ya que toca pagar
+bibliografia con normas icontec , y revisar , normas de la UMB
+NTES DE RESUMEN  no tiene que ser enumeradas sin incluir
+mirar lo de lso nivles con 3 y 4 nivel minuscula 1.1.1
+subir el texto cuando sea imagen
+quitar todo lo que diga IPS(mirar si es algo que tiene que ver con salud)
+paragigma de sql server , asp
+quitar de redes
+espacio doble 1.5
+orden logico centrar
+bibliografia a espacio sencillo
+las graficas deben tener fuente  y referencia
+en primera persona
+parrafos muy grandes
+hay mucha basra en el libro
+los capitulos son con salto de pagina
+negrilla y cursiva
+graficos mas pequeños centrar mas ordenadas
+fugra arribay fuente despues de la imagen
+bibliografia muy ccortay referencia
+quitar todo lo de wikipedia
+
+Resumen formato de resumen colocsrle el titulo , quitarle la negrita
+anexso colocar las pruebas ,
+todas las imagenes del mismo tamaño
+
+martes de 6 a 2 
+juan.reyes@virtualumb.com.co
+
+Manual de USusario muy corta la introduccion
+
+colocar 
+USUARIO
+BODEGA
+INVENTARIO
+BAJA
+EMPLEADO
+CLIENTE
+ORDEN DE SERVICIO
+COTIZACIONES
+FACTURA
+coprobar que informe si vna a colocar la misma clave
+restaurar el back desde la interfax
+reedirenccionar al menu , nunca salir a als malas?
+Aporte personal fue una experienza enrequisidora ?
+robustuded y seguridad , 3 aspectos que lo llevaron a escoger?
+desarrollo del proyecto del software libre
+cuidado con el formulario de productos
+busqueda de facturas todavia tiene errores
+agregar referencia del producto y la descripcion
+si la bodega no tiene datos que envie un mensaje de error
+validar que todos los campos acepten maximo del tamaña del campo de la tabla
+mensaje de guardado
+el total lo esta sacando aml, al momento de guardarlo en la base de datos
+en la factura deja agregar producto que no exstan en el invnetario
+nombre del ususario en al factura
+mirar lo del usuario?
+los eliminar de las gv
+preguntarle a rayner donde pasa el error de el departamento
+si no existe datos en el campo deberia sacarun mensaje el auto completar
+preguntar si se coloca por procedimiento almacenado el @ para recibir el parametro ?
+PREGUNTA SI YO ELIMINO UN DEPARTAMENTO OCULTO LAS CIUDADES, PERO SI YO LO VOY HABILITAR ,HABILITO TODAS LAS CIUDADES?
+COMO SE SI SE DESABILITARON PORQUE DESABILITE LA CIUDAD O SI FUE EL USUARIO?
+consultar inventario revisar
+hayposibilidad de organizar el menu automaticamente para que siempre sea =(ejemplo primer item siempre facturacion , despues cotizacion(dificil)
+tabla de tiempos (comparacion entre sin software y con el software)(por ahora no)
+los procedimientos almacenados lso mostramos en el video
+los autonumericos  solo mostrarlo cuando guarde o edite(y muestre el codigo cuando guarde
+------------
+
+poner * a los campos obligatorios o quitar eso , y hacer la validacion normal
+lso campo de estado deben ser bit ( si quiere en la programacion yo le cambio a texto por activo)
+deberia actualizar gv al eliminar de una sin recargar la pagina
+unir los campos nombres y apellidos(mauricio)
+
+''olbigatorio dato -1 en el cliente
+terceros es ta mal esta mal ese menu
+
+crear perfil ,crear permisos de perfil,crear el usuario,crear departamento,crear ciudad,crear bodega,crear cargo
+,crear empleado,crear cliente
+crear productos,crear inventario,crear proveedor,crear una orden,cotizacion,factura
+
+carolina 09/06/2011
+
+
+rayner 09/06/2011
+poner la base de datos en cero
+al eliminar un campo del facturado no deja eliminar los productos agregados
+el cerrar el documento es co guardar o que funcion tiene preguntar si se puede dejar en espera para terminarla despues?
+
+
+
+
+
+Dudas Rayner
+----------------------------------------------------------------------------------------------------------
+
+revisar el buscar de inventario
+12/01/2011
+
+cuando a el usuario se le cierre la sesion por tiempo deberia mandar un mensaje "tiempo agoado algo asi" y q despues lo dejej inciar de nuevo
+
+
+29/MAYO/2011
+cuando se realiza la busqueda y no encuentra nada muestreun mensaje
+bloquear el campo de registro orden y colocar u tooltiltext
+redireccionar los formularios al mas opcionado despues
+*cuando un tecnico tenga asociado algo no lo deje eliminar
+
+Inventario
+codigo del item (numerico)
+referencia(campoalfanmerico)mnemotecnico
+unidad adicional(metro,royo)
+manejo de extensiones(ejemplo tallas s,m,L)
+lotes(articulso con vencimiento,rastreo)
+unidad de volumen(cuanto pesan ejemplo 100 unidades)
+clasificacion rotacion(que tanto rota,costos)
+porcentaje maximo de exceso en entradas dede orden de compra(excedente de un provedorejemplo pedi 100 y llegaron105 y se puede)
+los precios pueden cambiar segun la sucursal
+instalacion(promedio de costos,segun la bodega)
+FACTURA Y MANOFACTURA(seleccionar si al bodega se puede utilizar para facturar)
+CLASIFICASION DE ITEMS(
+TIPOS DE INVENTARIOS SERVICISO(INVENTARIO, SERVICIOS , ACTIVOS FIJOS,DOTACION SUMINISTROS, ETC)
+CONVERTIDOR(EJEMPLO UN CANECA , CUANTOS LITROS TIENS) QUE LO CALCULE
+AJUSTE DE COMPRA A LOS ITEM(ENTRADA ME TOCA AUMENTAR COSTOS"en contra",POR SALIDA DISMINUYE EL PRECIO"A FAvor")
